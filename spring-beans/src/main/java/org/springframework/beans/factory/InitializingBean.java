@@ -44,6 +44,6 @@ public interface InitializingBean {
 	 * @throws Exception in the event of misconfiguration (such
 	 * as failure to set an essential property) or if initialization fails.
 	 */
-	void afterPropertiesSet() throws Exception;
+	protected void afterPropertiesSet() throws Exception;
 
 }
